@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consciente no Vestir</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f9f6f0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #5a7247, #748c5c);
+            color: white;
+            text-align: center;
+            padding: 3rem 1.5rem;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        main {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            color: #5a7247;
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.3rem;
+            border-bottom: 2px solid #d8ddc8;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        .ciclo {
+            background: white;
+            padding: 1.2rem;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+            margin: 1rem 0;
+        }
+
+        .dicas {
+            list-style: none;
+        }
+
+        .dicas li {
+            padding: 0.6rem 0;
+            border-bottom: 1px dashed #ccc;
+        }
+
+        .dicas li:last-child {
+            border-bottom: none;
+        }
+
+        footer {
+            background: #5a7247;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.9rem;
+            margin-top: 2rem;
+        }
+
+        .frase-final {
+            font-style: italic;
+            text-align: center;
+            color: #5a7247;
+            font-weight: 500;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Consciente no Vestir</h1>
+        <p>"A melhor roupa é aquela que amamos por muito tempo."</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Por que pensar antes de comprar?</h2>
+            <p>Quantas vezes você já comprou uma roupa, usou duas ou três vezes e depois ela ficou ali, esquecida no fundo do armário? Acontece com todo mundo. Mas esse hábito tem um custo — não só pro nosso bolso, mas também pro planeta.</p>
+            <p>Cada peça de roupa exige muita água, energia e trabalho pra chegar até a gente. Quando compramos sem necessidade, tudo isso acaba virando lixo rapidinho. Consumo consciente não é parar de comprar. É fazer escolhas que fazem sentido pra você e pro mundo ao seu redor.</p>
+        </section>
+
+        <section>
+            <h2>♻️ O que é moda circular?</h2>
+            <p>A ideia é bem simples: em vez de fazer → usar → jogar fora, a gente cria um ciclo onde as roupas continuam úteis o máximo de tempo possível.</p>
+            
+            <div class="ciclo">
+                <p>✅ <strong>Use bastante:</strong> invista em peças que combinam com o seu estilo e que vão te acompanhar por muito tempo</p>
+                <p>🔧 <strong>Repare:</strong> um botão solto ou um pequeno rasgo não é motivo pra se desfazer de uma roupa</p>
+                <p>🔁 <strong>Troque ou passe adiante:</strong> o que já não serve pra você pode ser a peça favorita de outra pessoa</p>
+                <p>♻️ <strong>Recicle:</strong> quando realmente não dá mais, veja se pode ser transformado em algo novo</p>
+            </div>
+            
+            <p>Moda circular é entender que uma roupa pode ter várias vidas e vários donos.</p>
+        </section>
+
+        <section>
+            <h2>Pequenas mudanças no dia a dia</h2>
+            <ul class="dicas">
+                <li>🛍️ Antes de finalizar a compra, pergunte: "eu realmente vou usar isso?"</li>
+                <li>👕 Dê uma olhada no seu armário — muitas vezes a peça "nova" já está lá</li>
+                <li>🤝 Organize uma troca de roupas com os amigos, é divertido e grátis</li>
+                <li>📍 Brechós e feiras de troca são verdadeiros tesouros escondidos</li>
+                <li>⏳ Se não for urgente, durma sobre a decisão. Muitas vezes a vontade passa de manhã</li>
+            </ul>
+        </section>
+
+        <p class="frase-final">Cada peça tem uma história. Quanto mais tempo ela fica com a gente, mais histórias ela tem pra contar.</p>
+    </main>
+
+    <footer>
+        <p>💚 Consciente no Vestir — cuidar do planeta também é uma questão de estilo.</p>
+    </footer>
+    
+</body>
+</html>
